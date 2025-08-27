@@ -1,0 +1,45 @@
+   body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .logo-container {
+            position: relative;
+            width: 192px; 
+            height: 192px;
+        }
+
+        .block {
+            position: absolute;
+            width: 75%;
+            height: 75%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .block-1 {
+            background-color: #f87171;
+            top: -60px;
+            left: -60px;
+        }
+
+        .block-2 {
+            background-color: #3b82f6; 
+            top: 50%;
+            left: 50%;
+            z-index: 20;
+            transform: translate(-50%, -50%);
+        }
+
+        .block-3 {
+            background-color: #4ade80; 
+            bottom: -60px;
+            right: -60px;
+        }
